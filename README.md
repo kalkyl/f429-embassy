@@ -1,9 +1,5 @@
-# MPU6050 example for [`embassy`](https://github.com/embassy-rs)
+# [`embassy`](https://github.com/embassy-rs) playground for stm32f429 nucleo
 
-# 1. Connections
+## Run examples
 
-Connect SDA to P0.03, SCL to P0.04
-
-## 2. Run example
-
-`$ DEFMT_LOG=info cargo rb simple`
+`$ cargo rb blinky`
